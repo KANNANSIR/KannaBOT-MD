@@ -16,9 +16,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Kolkata').format('HH')
+    let wibm = moment.tz('Asia/Kolkata').format('mm')
+    let wibs = moment.tz('Asia/Kolkata').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -48,26 +48,26 @@ global.sdc = 'https://t.me/BotzzMeeOFC'
 global.snh = 'https://nhentai.net/g/365296/'
 
 /*============== PAYMENT ==============*/
-global.pdana = '083174508962'
-global.povo = '083174508962'
-global.pgopay = '083174508962'
-global.ppulsa = '083174508962'
-global.ppulsa2 = '08979530736'
-global.psaweria = 'https://saweria.co/BaraXDz'
+global.pdana = '919633687665'
+global.povo = '919633687665'
+global.pgopay = '919633687665'
+global.ppulsa = '919633687665'
+global.ppulsa2 = '919633687665'
+global.psaweria = 'https://saweria.co/kriz'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '628979530736'
-global.nomorown = '6283174508962'
-global.namebot = 'BotzzMee-Md【﻿ＸｘＹｚ】'
-global.nameown = 'BaraXD'
+global.nomorbot = '917594898804'
+global.nomorown = '919633687665'
+global.namebot = 'ƮOᵪʝϲ-𐌑Ⅾ'
+global.nameown = '𝑘𝑟𝑖𝑠ℎ𝑛𝑎𝑑𝑎𝑠'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283174508962'],
-  ['6283174508962'],
-  ['6283174508962'],
-  ['6283174508962', 'BotzzMee-Md【﻿ＸｘＹｚ】', true]
+  ['919633687665'],
+  ['919633687665'],
+  ['919633687665'],
+  ['919633687665', 'ƮOᵪʝϲ-𐌑Ⅾ', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -112,13 +112,13 @@ global.APIKeys = { // APIKey Here
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'BotzzMee-Md【﻿ＸｘＹｚ】' //Main Watermark
-global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨ BotzzMee-Md¨˜ˆ”°⍣~•⊹٭„¸'
-global.wm3 = '☘︎ ʙᴏᴛᴢᴢᴍᴇᴇ-MD'
-global.botdate = `☘︎ 𝗗𝗮𝘁𝗲: ${week} ${date}\n☘︎ 𝗧𝗶𝗺𝗲: ${wktuwib}`
-global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
-global.titlebot = `☘︎ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By ${global.nameown}`
-global.author = '┄┄┄┅┅❑ 𝗕𝗮𝗿𝗮𝗫𝗗 ❑┅┅┄┄┄'
+global.wm = '© ᴋʀɪᴢ sᴇʀ' //Main Watermark
+global.wm2 = '¸„٭⊹•~⍣°”ˆ˜¨ © ᴋʀɪᴢ sᴇʀ¨˜ˆ”°⍣~•⊹٭„¸'
+global.wm3 = '©ᴋʀɪᴢ sᴇʀ™'
+global.botdate = `🎈 𝗗𝗮𝘁𝗲: ${week} ${date}\n☘︎ 𝗧𝗶𝗺𝗲: ${wktuwib}`
+global.bottime = `🎈𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
+global.titlebot = `🎈 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By ${global.nameown}`
+global.author = '┄┄┄┅┅❑ ᴋʀɪᴢ sᴇʀ ❑┅┅┄┄┄'
 
 
 /*============== LOGO ==============*/
